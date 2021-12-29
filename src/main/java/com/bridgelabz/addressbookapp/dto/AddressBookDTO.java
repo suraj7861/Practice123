@@ -1,11 +1,11 @@
 package com.bridgelabz.addressbookapp.dto;
 
 public class AddressBookDTO {
-	private String firstName;
-	private String lastName;
-	private String address;
-	private String city;
-	private long phoneNumber;
+	public String firstName;
+	public String lastName;
+	public String address;
+	public String city;
+	public long phoneNumber;
 
 	public AddressBookDTO( String firstName, String lastName, String address, String city, long phoneNumber) {
 		super();
